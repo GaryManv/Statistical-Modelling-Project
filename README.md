@@ -1,17 +1,19 @@
 # Final-Project-Statistical-Modelling-with-Python
 
 ## Project/Goals
-(fill in your description and goals here)
+Generate, preprocess, and explore a DataFrame by merging data from City Bikes, Foursquare, and Yelp sources. Develop a regression model and provide business-oriented recommendations based on the analysis.
 
 ## Process
-### (your step 1)
-### (your step 2)
+### step 1:Connecting to CityBikes API
+### step 2:Connecting to Foursquare and Yelp
+### step 3:Combining (stacking) yelp and foursquare dataframes with further merging with bike_df. Data visualisations. Creation of database combined_data.db.
+### step 4:Build a regression model that demonstrates a relationship between the number of bikes in a particular location and the characteristics of the restaurant location (distance from bike station).
 
 ## Results
-(fill in what you found about the comparative quality of API coverage in your chosen area and the results of your model.)
+R=0.006 in linear regression model means that relationship between 'Distances' and 'Free Bikes' is weak.
 
 ## Challenges 
-(discuss challenges you faced in the project)
+Connecting to API, figuring out mess gotten from API, lack of knowledge, lack of time
 
 ## Future Goals
-(what would you do if you had more time?)
+Spend much less time on data collecting and cleaning to have more time for data analysis and interpretation
